@@ -5,6 +5,7 @@ A UDP-based servo control system for Raspberry Pi that allows remote control of 
 This a robotics learning project for me. This control system allows me to control/test/move a four-jointed robot arm. It also provides a basic control layer while I work out the inverse kinimatics to create a motion planning layer.
 
 ## Hardware Setup
+<img width="695" height="755" alt="RPI_SERVO_WIRING_DIAGRAM drawio" src="https://github.com/user-attachments/assets/ff63f86f-bd2f-4a30-95bc-647bdb061f82" />
 
 ### Servo RPI pinout
 - **Servo 1**: GPIO 12
@@ -170,3 +171,4 @@ rpi_servo_udp_controller/
 ## License
 
 This project is open source and available under the MIT License.
+
