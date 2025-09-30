@@ -2,6 +2,8 @@
 
 A UDP-based servo control system for Raspberry Pi that allows remote control of 4 servos within a LAN. Consists of two Python scripts: a client script and a servo controller script. The client script runs on a PC and sends user-input UDP messages containing the desired angles of each motor. The servo controller script runs on the Raspberry Pi, listens for and parses the UDP messages, and sets the motors to the received angles.
 
+This a robotics learning project for me. This control system allows me to control/test/move a four-jointed robot arm. It also provides a basic control layer while I work out the inverse kinimatics to create a motion planning layer.
+
 ## Hardware Setup
 
 ### Servo RPI pinout
@@ -9,7 +11,6 @@ A UDP-based servo control system for Raspberry Pi that allows remote control of 
 - **Servo 2**: GPIO 13
 - **Servo 3**: GPIO 18
 - **Servo 4**: GPIO 19
-
 
 ## Installation
 
