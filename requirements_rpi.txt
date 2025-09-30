@@ -1,0 +1,11 @@
+# Requirements for Raspberry Pi Servo Controller
+# Install these packages on your Raspberry Pi
+
+# pigpio - Python library for Raspberry Pi GPIO control
+pigpio>=1.78
+
+# Note: You also need to install and start the pigpio daemon:
+# sudo apt update
+# sudo apt install pigpio python3-pigpio
+# sudo systemctl enable pigpiod
+# sudo systemctl start pigpiod
