@@ -9,7 +9,7 @@ import time
 import sys
 
 # UDP configuration
-UDP_IP = "192.168.1.5"  # Raspberry Pi IP address
+UDP_IP = "192.xxx.xxx.xxx"  # Raspberry Pi IP address
 UDP_PORT = 5005
 
 def send_servo_command(servo_angles, ip=UDP_IP, port=UDP_PORT):
@@ -146,3 +146,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
